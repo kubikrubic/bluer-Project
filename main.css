@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,300;1,700;1,800&display=swap');
+
+html {
+  font-family: 'Kanit', sans-serif;
+  font-style: italic;
+  font-weight: 800;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(255,97,166);
+  background: radial-gradient(circle, rgba(255,97,166,1) 0%, rgba(45,89,142,1) 86%);
+}
+
+img {
+  border-radius: 12px;
+  margin-top: 45px;
+  width: 200px;
+  height: 340px;
+  position: relative;
+  box-shadow: 0px 15px 50px 10px;
+}
+
+.conteyner {
+    text-align: center;
+    color: #141111;
+    z-index: 0;
+}
+.p {
+  display: inline;
+  position: absolute;
+  margin-top: 55px;
+  z-index: 1
+
+}
+
+
+.Par {
+  margin-left: -190px;
+  position: absolute;
+}
+.Piza {
+  margin-left: -190px;
+  position: absolute;
+}
+.New {
+  margin-left: -190px;
+  position: absolute;
+}
+.Rio {
+  margin-left: -190px;
+  position: absolute;
+}
+
+.conteyner:hover {
+  cursor: pointer;
+  transition-duration: 0.4s;
+  transition: 1s;
+}
+
+.conteyner:hover > img:not(:hover)   {
+  transition-duration: 0.4s;
+  filter: blur(20px);
+
+}
+
+
+
+img:not(:first-of-type :last-of-type) {
+  margin-left: 6px;
+  margin-right: 6px;
+}
